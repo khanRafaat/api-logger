@@ -549,7 +549,7 @@
             const text = document.getElementById('status-text');
 
             try {
-                const response = await fetch('/api-stats');
+                const response = await fetch('api-stats');
                 const data = await response.json();
 
                 // Server is online if we got a response
